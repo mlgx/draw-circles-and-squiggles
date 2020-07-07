@@ -3,7 +3,6 @@
 package main
 
 import (
-	"fmt"
 	"image/color"
 
 	"github.com/lucasb-eyer/go-colorful"
@@ -69,8 +68,5 @@ func mixColors(a, b color.Color) color.Color {
 	}
 	c1, _ := colorful.MakeColor(a)
 	c2, _ := colorful.MakeColor(b)
-	if c1 == c2 {
-		fmt.Println(a == b)
-	}
 	return c1.BlendHcl(c2, 0.5).Clamped()
 }
