@@ -4,7 +4,7 @@ Found this gif online and re-implemented it.
 
 ![circle-and-squiggles-animation-gif](original.gif)
 
-Clone the repo then run:
 ```go
-go build . && ./draw-circles-and-squiggles 800 10
+$ go install github.com/mlgx/draw-circles-and-squiggles
+$ draw-circles-and-squiggles 800 10
 ```
