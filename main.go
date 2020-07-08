@@ -37,8 +37,8 @@ func (c *circle) getMarkerCoordinates() (x, y float64) {
 	y = float64(c.y) + math.Cos(gg.Radians(float64(c.marker.angle)))*c.radius
 	return x, y
 }
-func (c1 *circle) getMixedMarkerCoordinates(c2 *circle) (x, y float64) {
-	x = float64(c1.x) + math.Sin(gg.Radians(float64(c1.marker.angle)))*c1.radius
+func (c *circle) getMixedMarkerCoordinates(c2 *circle) (x, y float64) {
+	x = float64(c.x) + math.Sin(gg.Radians(float64(c.marker.angle)))*c.radius
 	y = float64(c2.x) + math.Cos(gg.Radians(float64(c2.marker.angle)))*c2.radius
 	return x, y
 }
