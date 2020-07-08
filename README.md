@@ -1,6 +1,10 @@
 # Draw circles and squiggles
 
-Found this gif online and re-implemented it.
+2D animation of patterns drawn by combining two sets of inputs.
+
+[![Build Status](https://travis-ci.org/mlgx/draw-circles-and-squiggles.svg)](https://travis-ci.org/mlgx/draw-circles-and-squiggles)
+
+Implementation of this gif I found online.
 
 ![circle-and-squiggles-animation-gif](original.gif)
 
