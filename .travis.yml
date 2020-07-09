@@ -3,6 +3,8 @@ language: go
 go:
   - 1.14.x
 
+os: osx
+
 before_install:
   - go get -u golang.org/x/lint/golint
 
