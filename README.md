@@ -2,7 +2,7 @@
 
 2D animation of patterns drawn by combining two sets of inputs.
 
-[![Build Status](https://travis-ci.org/mlgx/draw-circles-and-squiggles.svg)](https://travis-ci.org/mlgx/draw-circles-and-squiggles)
+[![Build Status](https://travis-ci.com/mlgx/draw-circles-and-squiggles.svg)](https://travis-ci.com/mlgx/draw-circles-and-squiggles)
 
 Implementation of this gif I found online.
 
