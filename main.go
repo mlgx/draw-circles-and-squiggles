@@ -12,6 +12,7 @@ import (
 	"github.com/h8gi/canvas"
 )
 
+//nolint:gochecknoglobals // TODO: Cleanup.
 var (
 	frameRate       = 30  // Frames per second.
 	canvasSize      = 800 // Pixels.
